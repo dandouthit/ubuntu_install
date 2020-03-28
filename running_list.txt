@@ -3,6 +3,9 @@ terminator
 vim
 chromium-browser
 spotify-client
+software-properties-common
+virtualbox
+virtualbox-ext-pack
 
 statements to execute:
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
