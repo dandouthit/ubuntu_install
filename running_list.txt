@@ -1,0 +1,9 @@
+Packages to install:
+terminator
+vim
+chromium-browser
+
+statements to execute:
+git config --global user.email "danieldouthit@gmail.com"
+git config --global user.name "Dan Douthit"
+
