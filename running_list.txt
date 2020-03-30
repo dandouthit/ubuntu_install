@@ -1,11 +1,13 @@
 Packages to install:
 terminator
 vim
+curl
 chromium-browser
 spotify-client
 software-properties-common
 virtualbox
 virtualbox-ext-pack
+google-chrome-stable
 
 Packages to remove:
 thunderbird
@@ -18,4 +20,5 @@ git config --global user.email "danieldouthit@gmail.com"
 git config --global user.name "Dan Douthit"
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+sudo apt autoremove
